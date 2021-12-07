@@ -1,0 +1,26 @@
+/*ENCABEZADO*/
+.header{
+    background-color:$fondo2;
+    color:$negro;  
+    .header__portada--varios{
+        display: flex;
+        justify-content: center;
+        a img{
+            height: 100;
+            width: 400px;
+            }
+        }
+}  
+#nav1{
+    background-image:linear-gradient(to bottom, $fondo2,$fondo);
+    a,div ul li a{
+        color: $blanco;
+        font-size: 1.8em;
+        opacity: 80%;
+        &:hover{
+            color: orange;
+            text-decoration: none;
+            opacity: 50%;
+        }
+    }
+}

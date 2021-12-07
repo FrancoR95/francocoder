@@ -1,0 +1,18 @@
+/*PIE DE PAGINA*/
+.footer{
+    background-image:linear-gradient(to top, $fondo2,$fondo);
+    width: 100%; 
+    margin-top: 15px;  
+    bottom: 0;
+    display: flex;
+    justify-content:space-evenly;
+    a .footer__item--medidas{
+        width:50px;   
+        margin-bottom: 10px;
+        height: 50px;
+        transition: 2s;
+        &:hover{
+            transform: scale(1.2,1.2);
+        }
+    }
+}

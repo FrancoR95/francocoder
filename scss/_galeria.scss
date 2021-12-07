@@ -1,0 +1,64 @@
+/*Galeria*/
+.contenedor{
+    height: auto;
+    width: 100%;
+    display: grid;
+    border-radius: 6px;
+}
+#Caja1{
+    grid-row: 1/4;
+    grid-column: 1/2;
+    background-image: url(../css/Images/taller1.jpg);
+    background-size: cover;
+    border-radius: 1em;
+    height: 30em;
+    border: 3px solid $fondo;
+    border-radius: 6px;
+}
+#Caja2{
+    grid-column:2/4 ;
+    grid-row: 1/2;
+    background-image: url(../css/Images/taller6.jpg);
+    background-size:cover; 
+    border: 3px solid $fondo;
+    border-radius: 6px;
+}
+#Caja3{
+    grid-column: 2/4;
+    grid-row: 2/4;
+    background-image: url(../css/Images/taller2.jpg);
+    background-size: cover;
+    border: 3px solid $fondo;
+    border-radius: 6px;
+}
+#Caja4{
+    background-image: url(../css/Images/taller3.jpg);
+    background-size: cover;
+    border: 3px solid $fondo;
+    border-radius: 6px;
+}
+#Caja5{
+    grid-column: 4/5;
+    grid-row: 2/4;
+    background-image: url(../css/Images/taller4.jpg);
+    background-size: cover;
+    border: 3px solid $fondo;
+    border-radius: 6px;
+}
+#Caja6{
+    grid-column: 2/5;
+    background-image: url(../css/Images/taller5.jpg);
+    height: 15em;
+    background-size: cover;
+    border: 3px solid $fondo;
+    border-radius: 6px;
+}
+#Caja7{
+    grid-row: 4/5;
+    grid-column: 1/2;
+    background-image: url(../css/Images/taller6.jpg);
+    height: 15em;
+    background-size: cover;
+    border: 3px solid $fondo;
+    border-radius: 6px;
+}

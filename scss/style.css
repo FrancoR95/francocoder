@@ -1,0 +1,504 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*PIE DE PAGINA*/
+.footer {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#2D2424), to(#B85C38));
+  background-image: linear-gradient(to top, #2D2424, #B85C38);
+  width: 100%;
+  margin-top: 15px;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.footer a .footer__item--medidas {
+  width: 50px;
+  margin-bottom: 10px;
+  height: 50px;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.footer a .footer__item--medidas:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+
+/*ENCABEZADO*/
+.header {
+  background-color: #2D2424;
+  color: black;
+}
+
+.header .header__portada--varios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header .header__portada--varios a img {
+  height: 100;
+  width: 400px;
+}
+
+#nav1 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#2D2424), to(#B85C38));
+  background-image: linear-gradient(to bottom, #2D2424, #B85C38);
+}
+
+#nav1 a, #nav1 div ul li a {
+  color: white;
+  font-size: 1.8em;
+  opacity: 80%;
+}
+
+#nav1 a:hover, #nav1 div ul li a:hover {
+  color: orange;
+  text-decoration: none;
+  opacity: 50%;
+}
+
+/*Galeria*/
+.contenedor {
+  height: auto;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  border-radius: 6px;
+}
+
+#Caja1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  grid-row: 1/4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  background-image: url(../css/Images/taller1.jpg);
+  background-size: cover;
+  border-radius: 1em;
+  height: 30em;
+  border: 3px solid #B85C38;
+  border-radius: 6px;
+}
+
+#Caja2 {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-column: 2/4;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  background-image: url(../css/Images/taller6.jpg);
+  background-size: cover;
+  border: 3px solid #B85C38;
+  border-radius: 6px;
+}
+
+#Caja3 {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-column: 2/4;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  grid-row: 2/4;
+  background-image: url(../css/Images/taller2.jpg);
+  background-size: cover;
+  border: 3px solid #B85C38;
+  border-radius: 6px;
+}
+
+#Caja4 {
+  background-image: url(../css/Images/taller3.jpg);
+  background-size: cover;
+  border: 3px solid #B85C38;
+  border-radius: 6px;
+}
+
+#Caja5 {
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 1;
+  grid-column: 4/5;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  grid-row: 2/4;
+  background-image: url(../css/Images/taller4.jpg);
+  background-size: cover;
+  border: 3px solid #B85C38;
+  border-radius: 6px;
+}
+
+#Caja6 {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2/5;
+  background-image: url(../css/Images/taller5.jpg);
+  height: 15em;
+  background-size: cover;
+  border: 3px solid #B85C38;
+  border-radius: 6px;
+}
+
+#Caja7 {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  grid-row: 4/5;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  background-image: url(../css/Images/taller6.jpg);
+  height: 15em;
+  background-size: cover;
+  border: 3px solid #B85C38;
+  border-radius: 6px;
+}
+
+/*Formulario*/
+.Formulario {
+  font-size: 1.5em;
+}
+
+.Formulario .form-check .form-check-label {
+  font-size: 0.8em;
+}
+
+legend {
+  font-size: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/*Medias querys*/
+@media (max-width: 768px) and (min-width: 577px) {
+  header .Portada a img {
+    width: 400px;
+  }
+  header .Portada {
+    height: 100px;
+  }
+  .Equipo .Cris, .Emi, .Fran, .Mar {
+    width: 100%;
+    margin-left: 3%;
+    height: 60vh;
+  }
+  .Somos h3 {
+    margin-top: 30px;
+  }
+  .Somos .a {
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 576px) {
+  .header .header__portada--varios a img {
+    width: 100%;
+  }
+  header .Equipo__Cris, header .Equipo__Emi, header .Equipo__Marcos, header .Equipo__Fran, .Equipo__Emi, .Equipo__Marcos, .Equipo__Fran {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 90%;
+    height: 70vh;
+  }
+  .Somos h3 {
+    margin-top: 30px;
+  }
+  .Somos .a {
+    margin-bottom: 40px;
+  }
+  .Equipo .EquipoTitulo {
+    margin-bottom: 20px;
+  }
+}
+
+/*Pag Inicio*/
+.Equipo__Cris, .Equipo__Emi, .Equipo__Marcos, .Equipo__Fran {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50vh;
+}
+
+.Equipo__Cris figure, .Equipo__Emi figure, .Equipo__Marcos figure, .Equipo__Fran figure {
+  position: relative;
+  height: 250px;
+  width: 350px;
+  overflow: hidden;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 15px 25px rgba(9, 9, 9, 0.5);
+          box-shadow: 0px 15px 25px rgba(9, 9, 9, 0.5);
+  cursor: pointer;
+}
+
+.Equipo__Cris figure img, .Equipo__Emi figure img, .Equipo__Marcos figure img, .Equipo__Fran figure img {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
+}
+
+.Equipo__Cris figure .capa, .Equipo__Emi figure .capa, .Equipo__Marcos figure .capa, .Equipo__Fran figure .capa {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(12, 12, 12, 0.6);
+  -webkit-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+
+.Equipo__Cris figure:hover > .capa, .Equipo__Emi figure:hover > .capa, .Equipo__Marcos figure:hover > .capa, .Equipo__Fran figure:hover > .capa {
+  opacity: 1;
+  visibility: visible;
+}
+
+.Equipo__Cris figure:hover > .capa h3, .Equipo__Emi figure:hover > .capa h3, .Equipo__Marcos figure:hover > .capa h3, .Equipo__Fran figure:hover > .capa h3 {
+  margin-top: 70px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.Equipo__Cris figure .capa h3, .Equipo__Emi figure .capa h3, .Equipo__Marcos figure .capa h3, .Equipo__Fran figure .capa h3 {
+  color: white;
+  font-weight: 400;
+  margin-bottom: 120px;
+  margin-top: 30px;
+  -webkit-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
+}
+
+.Equipo__Cris figure .capa p, .Equipo__Emi figure .capa p, .Equipo__Marcos figure .capa p, .Equipo__Fran figure .capa p {
+  color: white;
+  font-size: 15px;
+  line-height: 1.5;
+  width: 100px;
+  max-width: 220px;
+  margin: auto;
+}
+
+.Equipo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  text-align: center;
+}
+
+.EquipoTitulo {
+  color: white;
+  font-size: 2.5em;
+  width: 100%;
+  margin: auto;
+}
+
+.Somos {
+  text-align: center;
+}
+
+.Somos h3, .a {
+  color: white;
+  font-size: 2.2em;
+  width: 100%;
+  margin: auto;
+}
+
+/*General*/
+body {
+  background-color: #B85C38;
+}
+
+body h1 {
+  color: white;
+}
+
+table {
+  margin-top: 80px;
+  height: auto;
+}
+
+.a {
+  color: white;
+}
+
+.a, h3, body {
+  font-family: 'Oswald', sans-serif;
+}
+
+.Trabajo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  text-align: center;
+}
+
+.Trabajo .Trabajo__Titulo {
+  color: white;
+  font-size: 2.5em;
+  width: 100%;
+  margin: auto;
+}
+
+.Trabajo__Service, .Trabajo__Transmision, .Trabajo__Embrague, .Trabajo__CreeLed {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50vh;
+}
+
+.Trabajo__Service figure, .Trabajo__Transmision figure, .Trabajo__Embrague figure, .Trabajo__CreeLed figure {
+  position: relative;
+  height: 250px;
+  width: 350px;
+  overflow: hidden;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 15px 25px rgba(9, 9, 9, 0.5);
+          box-shadow: 0px 15px 25px rgba(9, 9, 9, 0.5);
+  cursor: pointer;
+}
+
+.Trabajo__Service figure img, .Trabajo__Transmision figure img, .Trabajo__Embrague figure img, .Trabajo__CreeLed figure img {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
+}
+
+.Trabajo__Service figure .capa, .Trabajo__Transmision figure .capa, .Trabajo__Embrague figure .capa, .Trabajo__CreeLed figure .capa {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(12, 12, 12, 0.6);
+  -webkit-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+
+.Trabajo__Service figure:hover > .capa, .Trabajo__Transmision figure:hover > .capa, .Trabajo__Embrague figure:hover > .capa, .Trabajo__CreeLed figure:hover > .capa {
+  opacity: 1;
+  visibility: visible;
+}
+
+.Trabajo__Service figure:hover > .capa h3, .Trabajo__Transmision figure:hover > .capa h3, .Trabajo__Embrague figure:hover > .capa h3, .Trabajo__CreeLed figure:hover > .capa h3 {
+  margin-top: 70px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.Trabajo__Service figure .capa h3, .Trabajo__Transmision figure .capa h3, .Trabajo__Embrague figure .capa h3, .Trabajo__CreeLed figure .capa h3 {
+  color: white;
+  font-weight: 400;
+  margin-bottom: 120px;
+  margin-top: 30px;
+  -webkit-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
+}
+
+.Trabajo__Service figure .capa p, .Trabajo__Transmision figure .capa p, .Trabajo__Embrague figure .capa p, .Trabajo__CreeLed figure .capa p {
+  color: white;
+  font-size: 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+}
+
+/*CONTACTO*/
+* {
+  color: white;
+}
+
+h4 .icono {
+  display: inline-block;
+}
+
+.iconoT {
+  width: 60px;
+  height: 60px;
+}
+
+.iconoW {
+  width: 120px;
+  height: 120px;
+}
+
+.iconoG {
+  height: 60px;
+  width: 90px;
+}
+
+legend {
+  font-size: 3em;
+}
+
+fieldset {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+fieldset .MAPA {
+  border: 3px solid #B85C38;
+  border-radius: 6px;
+  height: 200px;
+  width: 50%;
+}
+
+fieldset .dondemapa {
+  font-size: 2.4em;
+}
+
+fieldset h4 {
+  font-size: 1.7em;
+}
+
+fieldset p {
+  font-size: 1.5em;
+}
+/*# sourceMappingURL=style.css.map */
