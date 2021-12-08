@@ -16,26 +16,11 @@ h4 .icono{
     height:60px ;
     width: 90px;
 }
-.legendcontacto{
-    font-size: 1em;
-    color:$blanco;
-}
-.cuadrocontacto{
-    .MAPA{
-        border: 3px solid $fondo;
-        border-radius: 6px;
-        height: 200px;
-        width: 50%;
-    }
-    .dondemapa{
-        font-size: 2.4em;
-        color:$blanco;
-    }
-    h4{
-        font-size: 1.7em;
-    }
-    p{
-        font-size: 1.5em;
-        color:$blanco;
-    }
+
+.MAPA{
+    border: 3px solid $fondo;
+    border-radius: 6px;
+    height: 200px;
+    width: 100%;
+    justify-content: center;
 }
