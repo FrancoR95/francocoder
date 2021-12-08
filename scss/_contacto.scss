@@ -1,6 +1,6 @@
 /*CONTACTO*/
 
-*{
+.bodycontacto{
     color:$blanco;
 }
 h4 .icono{
@@ -21,7 +21,7 @@ h4 .icono{
 legend{
     font-size: 3em;
 }
-fieldset{
+.cuadrocontacto{
     text-align: center;
     display: flex;
     flex-flow:column ;
