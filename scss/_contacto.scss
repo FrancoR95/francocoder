@@ -1,10 +1,8 @@
 /*CONTACTO*/
 
-.bodycontacto{
-    color:$blanco;
-}
 h4 .icono{
     display: inline-block;
+    color:$blanco;
 }
 .iconoT{
     width: 60px;
@@ -18,8 +16,9 @@ h4 .icono{
     height:60px ;
     width: 90px;
 }
-legend{
+.legendcontacto{
     font-size: 3em;
+    color:$blanco;
 }
 .cuadrocontacto{
     text-align: center;
@@ -33,11 +32,13 @@ legend{
     }
     .dondemapa{
         font-size: 2.4em;
+        color:$blanco;
     }
     h4{
         font-size: 1.7em;
     }
     p{
         font-size: 1.5em;
+        color:$blanco;
     }
 }
