@@ -9,12 +9,26 @@ h4 .icono{
     height: 60px;
 }
 .iconoW{
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
 }
 .iconoG{
     height:60px ;
     width: 90px;
+}
+.contenedor1{
+    display: block;
+    align-items: center;
+    h4 , p{
+        display: flex;
+        justify-content: center;
+        font-size: 1.6em;
+    }
+}
+.dondemapa{
+    display: flex;
+    justify-content: center;
+    font-size: 2.3em;
 }
 
 .MAPA{
