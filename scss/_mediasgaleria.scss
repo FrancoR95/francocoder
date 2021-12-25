@@ -58,7 +58,10 @@
 
 }
 #Caja5{
-    visibility: hidden;
+        grid-row: 8/10;
+        grid-column: 1/5;
+        height: 30em;
+        width: 100%;;
 }
 #Caja6{
     visibility: hidden;
