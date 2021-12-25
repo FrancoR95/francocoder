@@ -530,7 +530,7 @@ h4 .icono {
           justify-content: center;
 }
 
-@media (min-width: 766px) and (max-width: 1024px) {
+@media (min-width: 766px) and (max-width: 1000px) {
   #Caja1 {
     -ms-grid-row: 1;
     -ms-grid-row-span: 2;
@@ -629,7 +629,14 @@ h4 .icono {
     height: 30em;
   }
   #Caja5 {
-    visibility: hidden;
+    -ms-grid-row: 8;
+    -ms-grid-row-span: 2;
+    grid-row: 8/10;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 4;
+    grid-column: 1/5;
+    height: 30em;
+    width: 100%;
   }
   #Caja6 {
     visibility: hidden;
