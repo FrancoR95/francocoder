@@ -7,9 +7,8 @@
     header .Portada{
         height: 100px;
     }
-    .Equipo .Cris,.Emi,.Fran,.Mar{
+    .Equipo__Cris, .Equipo__Emi, .Equipo__Marcos, .Equipo__Fran {
         width: 100%;
-        margin-left: 3%;
         height: 60vh;
     }
     .Somos h3{
@@ -29,7 +28,7 @@
         }   
     }
     header 
-    .Equipo__Cris, .Equipo__Emi, .Equipo__Marcos, .Equipo__Fran {
+    .Equipo__Cris{
         margin-bottom: 15px;
         margin-top: 15px;
         width: 90%;
@@ -37,14 +36,41 @@
     }
     .Somos h3{
         margin-top: 30px;
+        width: 100%;
     }
     .Somos .a{
         margin-bottom: 40px;
+        width: 100%;
     }
     .Equipo{
         .EquipoTitulo{
             margin-bottom: 20px;
+            width: 100%;
         }
     }
 }
 
+@media (min-width:320px) and (max-width:1440px){
+    .footer{
+        margin-top: 140px;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1440px) {    header .Portada a img{
+    width: 400px;
+}
+header .Portada{
+    height: 100px;
+}
+.Equipo__Cris{
+    width: 100%;
+    margin-left: 3%;
+    height: 10vh;
+}
+.Somos h3{
+    margin-top: 30px;
+}
+.Somos .a{
+    margin-bottom: 40px;
+}
+}
